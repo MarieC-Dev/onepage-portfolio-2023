@@ -22,7 +22,10 @@ const FirstPage = () => {
           <div className="wrapperSkillsComponent">
             {skillsData.map((skill, index) => (
               <div className="skillsComponents" key={index}>
-                <img src={"../assets/skills/" + skill.image} alt={skill.text} />
+                <img
+                  src={"/src/assets/skills/" + skill.image}
+                  alt={skill.text}
+                />
                 <h4>{skill.text}</h4>
                 <p>{skill.caption}</p>
               </div>
