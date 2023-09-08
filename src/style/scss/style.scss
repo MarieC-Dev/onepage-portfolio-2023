@@ -1,0 +1,16 @@
+// BASE
+@import "./base/general";
+
+// UTILS
+@import "./utils/variables";
+@import "./utils/font";
+
+// LAYOUT
+@import "./layout/headerOnePage";
+@import "./layout/footer";
+
+// COMPONENTS
+@import "./components/skillsComponent";
+
+// PAGES
+@import "./pages/firstPage";

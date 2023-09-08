@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #0d0a05;
+}
+
+main,
+section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+a {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.line {
+  width: 64px;
+  height: 3px;
+  margin: 1rem 0 4rem 0;
+  background-color: #eb6763;
+  border: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.firstPage header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/home-img.png");
+  background-size: cover;
+  background-position: bottom 30% center;
+}
+.firstPage header h1,
+.firstPage header h2 {
+  text-align: center;
+}
+.firstPage header h2 {
+  background-color: #f3ec78;
+  background-image: linear-gradient(to right, #eb6763, #eb6763 20%, #fdfd78);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.firstPage header p {
+  margin-top: 3rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer {
+  padding: 3rem;
+}
+footer p {
+  text-align: center;
+}
+
+.skillsComponents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.skillsComponents img {
+  height: 64px;
+  margin: 0 auto 1rem auto;
+}
+.skillsComponents h4,
+.skillsComponents p {
+  text-align: center;
+}
+.skillsComponents p {
+  margin-top: 0.5rem;
+}
+
+.firstPage main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstPage main .skillsSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.firstPage main .skillsSection .wrapperSkillsComponent {
+  width: 1120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.firstPage main .skillsSection .wrapperSkillsComponent div {
+  width: 280px;
+  margin: 2rem auto;
+}
+.firstPage main .educationsSection .wrapperEducationsComponents,
+.firstPage main .educationsSection .wrapperExperiencesSection,
+.firstPage main .experiencesSection .wrapperEducationsComponents,
+.firstPage main .experiencesSection .wrapperExperiencesSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents,
+.firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents,
+.firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents,
+.firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents,
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents {
+  margin: 0 auto 2rem auto;
+}
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h5,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents p,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h5,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents p,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h5,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents p,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h5,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents p,
+.firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents h4,
+.firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents h5,
+.firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents p,
+.firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents h4,
+.firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents h5,
+.firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents p,
+.firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents h4,
+.firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents h5,
+.firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents p,
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h4,
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h5,
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents p {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h4,
+.firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents h4,
+.firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents h4,
+.firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents h4,
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h4 {
+  color: #eb6763;
+}
+
+/*# sourceMappingURL=style.css.map */

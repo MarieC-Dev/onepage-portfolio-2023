@@ -1,0 +1,36 @@
+.firstPage header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/home-img.png");
+  background-size: cover;
+  background-position: bottom 30% center;
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  h2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(
+      to right,
+      $coral,
+      $coral 20%,
+      $pastel-yellow
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  p {
+    margin-top: 3rem;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

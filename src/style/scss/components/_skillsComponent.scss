@@ -1,0 +1,21 @@
+.skillsComponents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  //border: 1px solid blue;
+
+  img {
+    height: 64px;
+    margin: 0 auto 1rem auto;
+  }
+
+  h4,
+  p {
+    text-align: center;
+  }
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
