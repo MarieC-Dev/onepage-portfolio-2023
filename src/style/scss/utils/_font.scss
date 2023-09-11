@@ -18,6 +18,28 @@ h5 {
   font-size: 18px;
 }
 
+@media screen and (max-width: 390px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+}
+
 // FONT
 $ft-size-xsmall: 12px;
 $ft-size-small: 14px;

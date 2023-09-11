@@ -1,6 +1,17 @@
 @import "../utils/variables";
 
 .firstPage {
+  .message {
+    padding: 0.5rem 2rem;
+    background-color: $light-grey;
+    color: $black;
+    text-align: center;
+
+    @media screen and (max-width: 390px) {
+      font-size: 12px;
+    }
+  }
+
   main {
     section {
       display: flex;
@@ -13,21 +24,37 @@
       flex-direction: column;
       margin-top: 2rem;
 
+      @media screen and (max-width: 820px) {
+        margin-top: 0;
+      }
+
       .wrapperSkillsComponent {
         width: 1120px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
 
+        @media screen and (max-width: 820px) {
+          width: 720px;
+        }
+
+        @media screen and (max-width: 390px) {
+          width: 370px;
+        }
+
         div {
           width: 280px;
           margin: 2rem auto;
+
+          @media screen and (max-width: 820px) {
+            margin: 3rem auto;
+          }
         }
       }
     }
 
-    .educationsSection,
-    .experiencesSection {
+    .experiencesSection,
+    .educationsSection {
       .wrapperEducationsComponents,
       .wrapperExperiencesSection {
         display: flex;

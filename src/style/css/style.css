@@ -19,9 +19,31 @@ section {
   width: 1200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 820px) {
+  main,
+  section {
+    width: 820px;
+  }
+}
+@media screen and (max-width: 390px) {
+  main,
+  section {
+    width: 390px;
+  }
+}
 
 section {
   padding: 6rem 0;
+}
+@media screen and (max-width: 820px) {
+  section {
+    padding: 4rem 1rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  section {
+    padding: 3rem 1rem;
+  }
 }
 
 p,
@@ -85,6 +107,23 @@ h5 {
   font-size: 18px;
 }
 
+@media screen and (max-width: 390px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+}
 .firstPage header {
   min-height: 100vh;
   display: flex;
@@ -94,6 +133,11 @@ h5 {
   background-image: url("../../assets/home-img.png");
   background-size: cover;
   background-position: bottom 30% center;
+}
+@media screen and (max-width: 390px) {
+  .firstPage header {
+    width: 390px;
+  }
 }
 .firstPage header h1,
 .firstPage header h2 {
@@ -112,6 +156,11 @@ h5 {
   margin-top: 3rem;
   font-size: 24px;
   font-weight: 700;
+}
+@media screen and (max-width: 390px) {
+  .firstPage header p {
+    font-size: 18px;
+  }
 }
 
 footer {
@@ -139,6 +188,17 @@ footer p {
   margin-top: 0.5rem;
 }
 
+.firstPage .message {
+  padding: 0.5rem 2rem;
+  background-color: #d9d9d9;
+  color: #0d0a05;
+  text-align: center;
+}
+@media screen and (max-width: 390px) {
+  .firstPage .message {
+    font-size: 12px;
+  }
+}
 .firstPage main section {
   display: flex;
   flex-direction: column;
@@ -149,46 +209,54 @@ footer p {
   flex-direction: column;
   margin-top: 2rem;
 }
+@media screen and (max-width: 820px) {
+  .firstPage main .skillsSection {
+    margin-top: 0;
+  }
+}
 .firstPage main .skillsSection .wrapperSkillsComponent {
   width: 1120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media screen and (max-width: 820px) {
+  .firstPage main .skillsSection .wrapperSkillsComponent {
+    width: 720px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .firstPage main .skillsSection .wrapperSkillsComponent {
+    width: 370px;
+  }
+}
 .firstPage main .skillsSection .wrapperSkillsComponent div {
   width: 280px;
   margin: 2rem auto;
 }
-.firstPage main .educationsSection .wrapperEducationsComponents,
-.firstPage main .educationsSection .wrapperExperiencesSection,
+@media screen and (max-width: 820px) {
+  .firstPage main .skillsSection .wrapperSkillsComponent div {
+    margin: 3rem auto;
+  }
+}
 .firstPage main .experiencesSection .wrapperEducationsComponents,
-.firstPage main .experiencesSection .wrapperExperiencesSection {
+.firstPage main .experiencesSection .wrapperExperiencesSection,
+.firstPage main .educationsSection .wrapperEducationsComponents,
+.firstPage main .educationsSection .wrapperExperiencesSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents,
-.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents,
-.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents,
-.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents,
 .firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents,
 .firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents,
 .firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents,
-.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents {
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents {
   margin: 0 auto 2rem auto;
 }
-.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h4,
-.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h5,
-.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents p,
-.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h4,
-.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h5,
-.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents p,
-.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h4,
-.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h5,
-.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents p,
-.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h4,
-.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h5,
-.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents p,
 .firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents h4,
 .firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents h5,
 .firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents p,
@@ -200,18 +268,30 @@ footer p {
 .firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents p,
 .firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h4,
 .firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h5,
-.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents p {
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents p,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h5,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents p,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h5,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents p,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h5,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents p,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h5,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents p {
   text-align: center;
   margin: 0.5rem 0;
 }
-.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h4,
-.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h4,
-.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h4,
-.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h4,
 .firstPage main .experiencesSection .wrapperEducationsComponents .educationsComponents h4,
 .firstPage main .experiencesSection .wrapperEducationsComponents .experiencesComponents h4,
 .firstPage main .experiencesSection .wrapperExperiencesSection .educationsComponents h4,
-.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h4 {
+.firstPage main .experiencesSection .wrapperExperiencesSection .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .educationsComponents h4,
+.firstPage main .educationsSection .wrapperEducationsComponents .experiencesComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .educationsComponents h4,
+.firstPage main .educationsSection .wrapperExperiencesSection .experiencesComponents h4 {
   color: #eb6763;
 }
 

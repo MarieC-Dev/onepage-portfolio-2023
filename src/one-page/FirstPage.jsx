@@ -7,6 +7,13 @@ import experiencesData from "./data/experiencesData";
 const FirstPage = () => {
   return (
     <div className="firstPage">
+      <p className="message">
+        Bonjour à tous ! Actuellement en train de développer mon site version
+        2023, je vous présente un premier aperçu sur une page. Mon portfolio
+        multi-page sera disponible prochainement sur ce même lien. Bonne visite
+        ! :)
+      </p>
+
       <header>
         <h1>Marie Costa</h1>
         <h2>Développeuse front-end</h2>
