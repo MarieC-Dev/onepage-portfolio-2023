@@ -176,6 +176,12 @@ footer p {
   justify-content: center;
   margin-bottom: 3rem;
 }
+@media screen and (max-width: 390px) {
+  .skillsComponents {
+    max-width: 140px;
+    justify-content: flex-start;
+  }
+}
 .skillsComponents img {
   height: 64px;
   margin: 0 auto 1rem auto;
@@ -186,6 +192,11 @@ footer p {
 }
 .skillsComponents p {
   margin-top: 0.5rem;
+}
+@media screen and (max-width: 390px) {
+  .skillsComponents img {
+    height: 48px;
+  }
 }
 
 .firstPage .message {

@@ -5,6 +5,11 @@
   margin-bottom: 3rem;
   //border: 1px solid blue;
 
+  @media screen and (max-width: 390px) {
+    max-width: 140px;
+    justify-content: flex-start;
+  }
+
   img {
     height: 64px;
     margin: 0 auto 1rem auto;
@@ -17,5 +22,11 @@
 
   p {
     margin-top: 0.5rem;
+  }
+
+  @media screen and (max-width: 390px) {
+    img {
+      height: 48px;
+    }
   }
 }
