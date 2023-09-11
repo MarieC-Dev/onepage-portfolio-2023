@@ -28,7 +28,6 @@ const FirstPage = () => {
               </div>
             ))}
           </div>
-          <img src={"/assets/skills/nodejs.svg"} alt="react" />
         </section>
 
         <section className="experiencesSection">
