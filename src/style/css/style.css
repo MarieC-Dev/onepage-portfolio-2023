@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   height: auto;
   margin: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,35 +15,20 @@ body {
   background-color: #0d0a05;
 }
 
-main,
-section {
-  width: 1200px;
-  margin: 0 auto;
-}
-@media screen and (max-width: 820px) {
-  main,
-  section {
-    width: 820px;
-  }
-}
-@media screen and (max-width: 390px) {
-  main,
-  section {
-    width: 390px;
-  }
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 section {
+  max-width: 1200px;
   padding: 6rem 0;
+  margin: 0 auto;
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 450px) {
   section {
-    padding: 4rem 1rem;
-  }
-}
-@media screen and (max-width: 390px) {
-  section {
-    padding: 3rem 1rem;
+    width: 90%;
   }
 }
 
@@ -107,15 +93,15 @@ h5 {
   font-size: 18px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
   h2 {
-    font-size: 34px;
+    font-size: 32px;
   }
   h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
   h4 {
     font-size: 20px;
@@ -125,7 +111,8 @@ h5 {
   }
 }
 .firstPage header {
-  min-height: 100vh;
+  max-width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,16 +121,18 @@ h5 {
   background-size: cover;
   background-position: bottom 30% center;
 }
-@media screen and (max-width: 390px) {
-  .firstPage header {
-    width: 390px;
-  }
+.firstPage header .headerContent {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.firstPage header h1,
-.firstPage header h2 {
+.firstPage header .headerContent h1,
+.firstPage header .headerContent h2 {
   text-align: center;
 }
-.firstPage header h2 {
+.firstPage header .headerContent h2 {
   background-color: #f3ec78;
   background-image: linear-gradient(to right, #eb6763, #eb6763 20%, #fdfd78);
   background-size: 100%;
@@ -152,13 +141,14 @@ h5 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-.firstPage header p {
+.firstPage header .headerContent p {
   margin-top: 3rem;
   font-size: 24px;
   font-weight: 700;
+  text-align: center;
 }
-@media screen and (max-width: 390px) {
-  .firstPage header p {
+@media screen and (max-width: 450px) {
+  .firstPage header .headerContent p {
     font-size: 18px;
   }
 }
@@ -176,7 +166,7 @@ footer p {
   justify-content: center;
   margin-bottom: 3rem;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   .skillsComponents {
     max-width: 140px;
     justify-content: flex-start;
@@ -193,23 +183,12 @@ footer p {
 .skillsComponents p {
   margin-top: 0.5rem;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   .skillsComponents img {
     height: 48px;
   }
 }
 
-.firstPage .message {
-  padding: 0.5rem 2rem;
-  background-color: #d9d9d9;
-  color: #0d0a05;
-  text-align: center;
-}
-@media screen and (max-width: 390px) {
-  .firstPage .message {
-    font-size: 12px;
-  }
-}
 .firstPage main section {
   display: flex;
   flex-direction: column;
@@ -236,7 +215,7 @@ footer p {
     width: 720px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
   .firstPage main .skillsSection .wrapperSkillsComponent {
     width: 370px;
   }

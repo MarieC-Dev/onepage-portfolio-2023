@@ -1,17 +1,6 @@
 @import "../utils/variables";
 
 .firstPage {
-  .message {
-    padding: 0.5rem 2rem;
-    background-color: $light-grey;
-    color: $black;
-    text-align: center;
-
-    @media screen and (max-width: 390px) {
-      font-size: 12px;
-    }
-  }
-
   main {
     section {
       display: flex;
@@ -38,7 +27,7 @@
           width: 720px;
         }
 
-        @media screen and (max-width: 390px) {
+        @media screen and (max-width: 450px) {
           width: 370px;
         }
 
