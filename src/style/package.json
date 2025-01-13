@@ -1,18 +1,15 @@
 {
-  "name": "cv-style",
+  "name": "style",
   "version": "1.0.0",
   "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "sass --watch scss/style.scss:css/style.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "marie",
-  "license": "ISC",
   "dependencies": {
-    "node-sass": "^9.0.0"
-  },
-  "devDependencies": {
-    "sass": "^1.66.1"
+    "sass": "^1.83.1"
   }
 }
