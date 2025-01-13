@@ -10,6 +10,11 @@ const educationData = [
     school: "Epitech, Marseille (2e)",
   },
   {
+    years: "2019 - 2020",
+    title: "3ème année Bachelor Chef de Projet Digital ",
+    school: "ECV, Aix-en-Provence",
+  },
+  {
     years: "2017 - 2019",
     title:
       "BTS ERPC (Étude de Réalisation de Projet de Communication, option production graphique)",

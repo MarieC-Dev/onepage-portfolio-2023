@@ -3,7 +3,7 @@ const experiencesData = [
     title:
       "Janvier 2024 - Juin 2024 - Développeuse front-end, Peaks, Aix en Provence :",
     description:
-      "Développement de landing pages chez le client (Crédit Agricole)",
+      "Mission au Crédit Agricole e-Développement : Développement front-end de landing page avec Eleventy et AlpineJS, réalisation de maquette UI sur Figma",
   },
   {
     title:
