@@ -1,6 +1,12 @@
 const experiencesData = [
   {
     title:
+      "Janvier 2024 - Juin 2024 - Développeuse front-end, Peaks, Aix en Provence :",
+    description:
+      "Développement de landing pages chez le client (Crédit Agricole)",
+  },
+  {
+    title:
       "Mars 2022 - Juillet 2023 - Développeuse front-end web et mobile, Smile, Marseille (3e) :",
     description:
       "Développement d’applications mobile en React Native, de sites web en ReactJS et en VueJS",
