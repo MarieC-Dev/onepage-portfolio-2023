@@ -9,7 +9,7 @@ const skillsData = [
     // Javascript
     id: 1,
     image: "/assets/skills/js.svg",
-    text: "Javascript",
+    text: "JavaScript",
   },
   {
     // React JS
