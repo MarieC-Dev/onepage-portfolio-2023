@@ -1,5 +1,10 @@
 const educationData = [
   {
+    years: "2025",
+    title: "Développeur web full-stack (6 mois)",
+    school: "Ilaria Digital School, à distance",
+  },
+  {
     years: "2021 - 2023",
     title: "MSc Pro (Master of Science Pro)",
     school: "Epitech, Marseille (2e)",
@@ -25,11 +30,6 @@ const educationData = [
     title:
       "Bac Pro RPIP (Réalisation de Produits Imprimés et Plurimédia, option production graphique)",
     school: "Lycée Don Bosco, Marseille (6e)",
-  },
-  {
-    years: "2013 - 2015",
-    title: "CAP Sérigraphie",
-    school: "Lycée Léonard de Vinci, Marseille (7e)",
   },
 ];
 

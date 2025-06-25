@@ -1,6 +1,12 @@
 const experiencesData = [
   {
     title:
+      "Août 2024 - Janvier 2025 - Agent de conditionnement, Comptoirs des Salaisons, Marseille (16e) :",
+    description:
+      "Conditionnement de charcuterie dans des caisses en plastique destinées à la vente en grande surface, sous atmosphère frigorifique",
+  },
+  {
+    title:
       "Janvier 2024 - Juin 2024 - Développeuse front-end, Peaks, Aix en Provence :",
     description:
       "Mission au Crédit Agricole e-Développement : Développement front-end de landing page avec Eleventy et AlpineJS, réalisation de maquette UI sur Figma",

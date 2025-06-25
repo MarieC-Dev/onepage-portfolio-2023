@@ -1,8 +1,20 @@
 /* eslint-disable react/jsx-key */
-//import skillsData from "../one-page/data/skillsData";
-import skillsData from "./data/skillsData";
 import educationData from "./data/educationsData";
 import experiencesData from "./data/experiencesData";
+
+import htmlcss from '../assets/skills/html-css.svg';
+import javascript from '../assets/skills/js.svg';
+import angularLogo from "../assets/skills/angular.png";
+import reactjs from '../assets/skills/react.svg';
+import vuejs from '../assets/skills/vuejs.svg';
+import tailwind from '../assets/skills/tailwind-css.svg';
+import nodejsLogo from '../assets/skills/nodejs.svg';
+import mysql from '../assets/skills/mysql.png';
+import illustrator from '../assets/skills/ai.svg';
+import photoshop from '../assets/skills/ps.svg';
+import indesign from '../assets/skills/id.svg';
+import xdLogo from '../assets/skills/xd.svg';
+import figma from '../assets/skills/figma.svg';
 
 const FirstPage = () => {
   return (
@@ -22,13 +34,81 @@ const FirstPage = () => {
           <hr className="line" />
 
           <div className="wrapperSkillsComponent">
-            {skillsData.map((skill, index) => (
-              <div className="skillsComponents" key={index}>
-                <img src={skill.image} alt={skill.text} />
-                <h4>{skill.text}</h4>
-                <p>{skill.caption}</p>
-              </div>
-            ))}
+            <div className="skillsComponents">
+              <img src={htmlcss} alt="html css" />
+              <h4>HTML - CSS - SCSS</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={javascript} alt="javascript" />
+              <h4>Javascript</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={angularLogo} alt="angular" />
+              <h4>Angular</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={reactjs} alt="react js" />
+              <h4>ReactJS</h4>
+              <p>(bases)</p>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={vuejs} alt="vuejs" />
+              <h4>Vue JS</h4>
+              <p>(bases)</p>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={tailwind} alt="tailwind" />
+              <h4>Tailwind</h4>
+              <p>(bases)</p>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={nodejsLogo} alt="nodejs" />
+              <h4>NodeJS</h4>
+              <p>(bases)</p>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={javascript} alt="javascript" />
+              <h4>Express JS</h4>
+              <p>(bases)</p>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={mysql} alt="mysql" />
+              <h4>MySQL</h4>
+              <p>(bases)</p>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={illustrator} alt="illustrator" />
+              <h4>Adobe Illustrator</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={photoshop} alt="photoshop" />
+              <h4>Adobe Photoshop</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={indesign} alt="indesign" />
+              <h4>Adobe InDesign</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={xdLogo} alt="xd" />
+              <h4>Adobe Xd</h4>
+            </div>
+
+            <div className="skillsComponents">
+              <img src={figma} alt="figma" />
+              <h4>Figma</h4>
+            </div>
           </div>
         </section>
 
