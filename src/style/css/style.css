@@ -127,6 +127,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -3rem;
 }
 .firstPage header .headerContent h1,
 .firstPage header .headerContent h2 {
@@ -193,6 +194,48 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.firstPage main .projectsSection .cookItProject {
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 450px) {
+  .firstPage main .projectsSection .cookItProject {
+    width: 80%;
+  }
+}
+.firstPage main .projectsSection .cookItProject div {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: white;
+}
+@media screen and (max-width: 450px) {
+  .firstPage main .projectsSection .cookItProject div {
+    width: 100%;
+    height: 150px;
+  }
+}
+.firstPage main .projectsSection .cookItProject div img {
+  height: 56px;
+}
+@media screen and (max-width: 450px) {
+  .firstPage main .projectsSection .cookItProject div img {
+    height: 48px;
+  }
+}
+.firstPage main .projectsSection .cookItProject p {
+  padding: 2rem;
+  text-align: center;
 }
 .firstPage main .skillsSection {
   display: flex;

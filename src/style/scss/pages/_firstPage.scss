@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@use "../utils/variables" as *;
 
 .firstPage {
   main {
@@ -6,6 +6,51 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+
+    .projectsSection {
+      .cookItProject {
+        width: min-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 1rem;
+        overflow: hidden;
+
+        @media screen and (max-width: 450px) {
+          width: 80%;
+        }
+
+        div {
+          width: max-content;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 2rem;
+          margin: 0 auto;
+          background-color: white;
+
+          @media screen and (max-width: 450px) {
+            width: 100%;
+            height: 150px;
+          }
+
+          img {
+            height: 56px;
+
+            @media screen and (max-width: 450px) {
+              height: 48px;
+            }
+          }
+        }
+
+        p {
+          padding: 2rem;
+          text-align: center;
+        }
+      }
     }
 
     .skillsSection {

@@ -15,6 +15,7 @@ import photoshop from '../assets/skills/ps.svg';
 import indesign from '../assets/skills/id.svg';
 import xdLogo from '../assets/skills/xd.svg';
 import figma from '../assets/skills/figma.svg';
+import cookIt from '../assets/cook-it-logo.svg';
 
 const FirstPage = () => {
   return (
@@ -22,13 +23,26 @@ const FirstPage = () => {
       <header>
         <div className="headerContent">
           <h1>Marie Costa</h1>
-          <h2>Développeuse front-end</h2>
-
-          <p>Objectif : Développeuse full-stack</p>
+          <h2>Développeuse full-stack</h2>
         </div>
       </header>
 
       <main>
+        {/*<section className="projectsSection">
+          <h3>Réalisation</h3>
+          <hr className="line" />
+
+          <div className="cookItProject">
+            <a href="https://cook-it.ovh" target="_blank" rel="noreferrer">
+              <div>
+                <img src={cookIt} alt="cook it logo"/>
+              </div>
+
+              <p>Projet de fin de formation - Ilaria Academy</p>
+            </a>
+          </div>
+        </section>*/}
+
         <section className="skillsSection">
           <h3>Compétences</h3>
           <hr className="line" />
